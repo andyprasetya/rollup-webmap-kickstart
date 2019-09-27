@@ -2,7 +2,7 @@ var templates = {};
 
 templates.topNavigation = function() {
   let dom = `<nav class='navbar navbar-expand-lg navbar-dark bg-dark'>
-    <a class='navbar-brand' href='#'>SIPDesa Provinsi Jawa Tengah</a>
+    <a class='navbar-brand' href='#'>Rollup Webmap Kickstart</a>
     <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation'>
       <span class='navbar-toggler-icon'></span>
     </button>
@@ -13,15 +13,15 @@ templates.topNavigation = function() {
           <a id='home' class='nav-link' href='#'><i class='fa fa-home'></i>&nbsp;Home <span class='sr-only'>(current)</span></a>
         </li>
         <li class='nav-item'>
-          <a id='infografik' class='nav-link' href='#'><i class='fa fa-bar-chart'></i>&nbsp;Infografik</a>
+          <a class='nav-link' href='#'><i class='fa fa-bar-chart'></i>&nbsp;Menu 1</a>
         </li>
         <li class='nav-item'>
-          <a id='webmap' class='nav-link' href='#'><i class='fa fa-map'></i>&nbsp;Peta</a>
+          <a class='nav-link' href='#'><i class='fa fa-map'></i>&nbsp;Menu 2</a>
         </li>
       </ul>
       <ul class='navbar-nav'>
         <li class='nav-item'>
-          <a id='exit' class='nav-link' href='#'><i class='fa fa-power-off'></i>&nbsp;Keluar</a>
+          <a class='nav-link' href='#'><i class='fa fa-power-off'></i>&nbsp;Exit</a>
         </li>
       </ul>
     </div>
