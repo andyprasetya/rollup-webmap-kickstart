@@ -1,6 +1,9 @@
 {
   "name": "rollup-webmap-kickstart",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.2",
+    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "autoprefixer": "^9.6.1",
     "bootstrap": "^4.3.1",
     "jquery": "^3.4.1",
@@ -9,8 +12,6 @@
     "npm-run-all": "^4.1.5",
     "popper.js": "^1.15.0",
     "rollup": "^1.16.2",
-    "rollup-plugin-commonjs": "^10.0.0",
-    "rollup-plugin-node-resolve": "^5.1.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-terser": "^5.0.0",
     "serve": "^11.0.2"
